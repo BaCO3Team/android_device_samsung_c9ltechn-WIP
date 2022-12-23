@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/helium/full_helium.mk)
+$(call inherit-product, device/samsung/c9ltechn/full_c9ltechn.mk)
 
 # Inherit some common LINEAGE stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)

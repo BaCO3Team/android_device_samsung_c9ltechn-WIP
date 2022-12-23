@@ -21,19 +21,20 @@ $(call inherit-product, device/xiaomi/helium/full_helium.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-BOARD_VENDOR := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := helium
-PRODUCT_NAME := lineage_helium
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Mi Max Prime
-TARGET_VENDOR := Xiaomi
+BOARD_VENDOR := Samsung
+PRODUCT_BRAND := samsung
+PRODUCT_DEVICE := c9ltechn
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_NAME := lineage_c9ltechn
+PRODUCT_MODEL := SM-C9000
+TARGET_VENDOR := Samsung
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Xiaomi/helium/helium:7.0/NRD90M/V9.1.2.0.NBDMIEI:user/release-keys \
-    PRIVATE_BUILD_DESC="helium-user 7.0 NRD90M V9.1.2.0.NBDMIEI release-keys"
+    BUILD_FINGERPRINT=samsung/c9ltezc/c9ltechn:8.0.0/R16NW/C9000ZCU1CSC2:user/release-keys \
+    PRIVATE_BUILD_DESC="c9ltezc-user 8.0.0 R16NW C9000ZCU1CSC2 release-keys"
 endif

@@ -21,6 +21,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),helium)
+ifeq ($(TARGET_DEVICE),c9ltechn)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

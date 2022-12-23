@@ -16,10 +16,10 @@
 # inherit from common msm8956-common
 -include device/xiaomi/msm8956-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/helium
+DEVICE_PATH := device/samsung/c9ltechn
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := helium
+TARGET_OTA_ASSERT_DEVICE := c9ltechn
 
 # inherit from the proprietary version
--include vendor/xiaomi/helium/BoardConfigVendor.mk
+-include vendor/samsung/c9ltechn/BoardConfigVendor.mk

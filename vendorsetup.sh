@@ -1,1 +1,3 @@
-add_lunch_combo lineage_helium-userdebug
+add_lunch_combo lineage_c9ltechn-eng
+add_lunch_combo lineage_c9ltechn-user
+add_lunch_combo lineage_c9ltechn-userdebug

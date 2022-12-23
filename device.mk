@@ -26,4 +26,4 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc
 
 # Inherit from msm8956-common
-$(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)
+$(call inherit-product, device/samsung/msm8956-common/msm8956.mk)
